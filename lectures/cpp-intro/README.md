@@ -579,14 +579,14 @@ std::string user_name = "alice";
 auto data_file = user_name + ".csv";
 ```
 
-We'll come back to this!
+We will come back to this!
 
 ???
 
 Here, 'data_file' is given the type 'std::string' by the compiler using
 "type inference"
 
-In general we'd recommend using auto quite a lot "Almost always auto"
+In general we would recommend using auto quite a lot "Almost always auto"
 
 Why?
 
