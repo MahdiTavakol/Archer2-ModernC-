@@ -1,8 +1,8 @@
 template: titleslide
 
 # A brief introduction to C++
-## Nathan Mannall, EPCC
-## n.mannall@epcc.ed.ac.uk
+## Adrian Jackson, EPCC
+## a.jackson@epcc.ed.ac.uk
 
 ---
 
@@ -29,8 +29,7 @@ implement patterns efficiently using C++.
 
 ???
 
-For lots on how to do this well, consider other courses such as the Parallel Design Patterns
-course from the MSc
+If you're interested in some of these topics we have other courses that cover some of this material
 
 ---
 # What is "scientific computing"?
@@ -39,9 +38,9 @@ Both HPC and data science, when you actually come to running a
 program, are about getting a large amount of data from memory to a
 core, doing something useful to it, and storing it again.
 
-This is why FORTRAN is still relevant!
+This is why Fortran is still relevant!
 
-But it does force you to confront this all time.
+But Fortran requires lower-level patterns for data access and operations (think loops over arrays)
 
 C++ is all about building abstractions and composing them.
 
@@ -51,12 +50,18 @@ default rules)
 ---
 # These few lectures
 
-We could spend a whole semester going in depth on C++, so we've picked
+We could spend many days going in depth on C++, so we've picked
 a handful of features to cover that you really need to write modern
 C++ for technical computing.
 
 This is not trying to teach the *whole language* in the many different
 styles that people have developed over the decades.
+
+One of the challenges of C++ is this breadth of material. Being a competent C++ programmer does not mean you'll know the whole of C++ and all the possible things that can be done with the langage.
+
+We aim to provide you with knowledge on what we think are the key things, especially for scientific programming.
+
+Many different styles of program can be compiled with a C++ compiler, we're aiming for something philsophically aligned with modern C++ principles.
 
 Please ask questions any time!
 
@@ -109,8 +114,7 @@ Because that's how many legs they had to nail on to "fix" the octopus.
 -   Flexible by allowing developers to build abstractions (and provides
     a large number through the library)
 
--   Performance and efficiency are always targeted "you only pay for
-    what you use"
+-   Performance and efficiency are always targeted "you only pay for what you use"
 
 -   Use the powerful type system to express intent
 
@@ -123,7 +127,7 @@ C++ is a work in progress.
 
 Every three years there is a new update to the International Standard
 
-C++20 is only fully supported by MSVC (although GCC is nearly there). Major
+C++20 is only fully supported by MSVC and GCC. Major
 new features are ranges, coroutines, concepts, and modules
 
 Latest one, C++23 has been released. Major features include
@@ -264,14 +268,14 @@ There are later versions of GCC on ARCHER2 but 11.2.0 is the default version
 # Getting the source code
 
 All these slides and the exerices are available on GitHub:
-https://github.com/EPCCed/archer2-cpp
+https://github.com/adrianjhpc/archer2-cpp
 
 You also can view the slides and other materials in a browser by going
-to https://EPCCed.github.io/archer2-cpp
+to https://adrianjhpc.github.io/archer2-cpp
 
 In the terminal, you need to use git get a copy of the exercises:
 ```
-git clone https://github.com/EPCCed/archer2-cpp
+git clone https://github.com/adrianjhpc/archer2-cpp
 ```
 
 Then you can change to the directory with this simple program
