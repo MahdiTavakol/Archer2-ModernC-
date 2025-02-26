@@ -1,8 +1,8 @@
 template: titleslide
 
 # C++ Threads - Basics
-## James Richings, EPCC
-## j.richings@epcc.ed.ac.uk
+## Adrian Jackson, EPCC
+## a.jackson@epcc.ed.ac.uk
 
 ---
 

@@ -1,5 +1,7 @@
 template: titleslide
 # C++ Threads – Further topics
+## Adrian Jackson, EPCC
+## a.jackson@epcc.ed.ac.uk
 
 ---
 # Overview

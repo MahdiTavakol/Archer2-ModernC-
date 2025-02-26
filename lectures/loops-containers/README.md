@@ -1,7 +1,7 @@
 template: titleslide
 # Containers, loops, and iterators
-## Nathan Mannall
-## n.mannall@epcc.ed.ac.uk
+## Adrian Jackson
+## a.jackson@epcc.ed.ac.uk
 
 ???
 

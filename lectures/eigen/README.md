@@ -1,7 +1,7 @@
 template: titleslide
 # Linear Algebra for C++ (using Eigen)
-## James Richings, EPCC
-## j.richings@epcc.ed.ac.uk
+# Adrian Jackson, EPCC
+## a.jackson@epcc.ed.ac.uk
 
 ---
 # Source

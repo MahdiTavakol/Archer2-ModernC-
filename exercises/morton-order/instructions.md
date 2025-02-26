@@ -9,7 +9,7 @@
 Source for this can be obtained from Github. Get a new copy with:
 
 ```
-git clone https://github.com/EPCCed/archer2-cpp
+git clone https://github.com/adrianjhpc/archer2-cpp
 ```
 
 or update your existing one with

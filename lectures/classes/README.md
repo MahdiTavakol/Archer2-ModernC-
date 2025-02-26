@@ -1,7 +1,7 @@
 template: titleslide
 # Classes
-## Nathan Mannall, EPCC
-## n.mannall@epcc.ed.ac.uk
+## Adrian Jackson, EPCC
+## a.jackson@epcc.ed.ac.uk
 
 
 ---

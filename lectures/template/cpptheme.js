@@ -1,9 +1,9 @@
-import {epcc, Theme} from "https://EPCCed.github.io/remark_theme/latest.js";
+import {epcc, Theme} from "https://adrianjhpc.github.io/remark_theme/latest.js";
 
 var footer = new URL(import.meta.url).searchParams.get("footer");
 
 if (!footer) {
-    footer = "&copy; Rupert Nash, The University of Edinburgh, CC-BY";
+    footer = "&copy; EPCC, The University of Edinburgh, CC-BY";
 }
 epcc.footer_text = footer;
 
