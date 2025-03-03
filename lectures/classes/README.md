@@ -773,13 +773,32 @@ private:
 };
 
 Complex operator+(Complex const& a, Complex const& b);
-// Etc...
+// etc...
 
 #endif
 ```
 ???
 
 Draw attention to the include guard idiom - include the file only once
+
+---
+# Where to put these
+
+E.g. Complex.cpp:
+
+```C++
+#include "Complex.hpp"
+
+Complex operator+(Complex const& a, Complex const& b) {
+  return Complex{a.re+b.re, a.im+b.im};
+}
+```
+???
+
+Draw attention to how you include locally defined include files
+
+Note the operator+ function defined here wouldn't actually compile becasue we've 
+defined re and im as private in the type definition
 
 ---
 # Exercise
