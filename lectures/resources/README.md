@@ -428,7 +428,7 @@ This can be quite a lot of work!
 ---
 # The Rule of Zero
 
-This says that unless your class is solely deals with ownership, then
+This says that unless your class solely deals with ownership, then
 it should define none of the five special functions.
 
 This is really a corollary of the general software engineering 
