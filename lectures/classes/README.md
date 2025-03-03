@@ -618,7 +618,7 @@ reference variable without initialising it
 At the call site the reference is bound to parameter and the function
 can refer to `data` without copying it
 
-This is close to the way that Fortran passes arguemnts to subroutines
+This is close to the way that Fortran passes arguments to subroutines
 
 ---
 # References and Const
