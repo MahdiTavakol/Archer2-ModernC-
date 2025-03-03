@@ -213,7 +213,9 @@ template: hello
 The 'main' function is the 'entry point' of the program and its integer return value
 allows a program or error status to be returned to the operating system.
 
-There are 'main' function exit (return) values defined in <cstdlib>
+There are 'main' function exit (return) values defined in the cstdlib library. For C 
+the defined return values are 0 for EXIT_SUCCESS and 1 for EXIT_FAILURE
+ 
 ---
 template: hello
 
