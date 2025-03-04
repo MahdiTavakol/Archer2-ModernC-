@@ -20,8 +20,8 @@ TEST_CASE("Complex numbers are constructed real/imag parts readable") {
 
   const Complex z1{1, -83};
   const Complex z2 = z1;
-  REQUIRE(i.real() == 0.0);
-  REQUIRE(i.imag() == 1.0);
+  REQUIRE(z1.real() == z2.real());
+  REQUIRE(z1.imag() == z2.imag());
 }
 
 TEST_CASE("Complex numbers can be compared") {
