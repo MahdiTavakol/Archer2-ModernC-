@@ -185,7 +185,7 @@ T addOne(T x) // function template definition
 not see any uses of the `addOne` function. Therefore you will get a linker error.
 
 We fix this by putting all the template code in a header file. Each `.cpp` file
-will see the template definition and instatiate any functions as needed.
+will see the template definition and instantiate any functions as needed.
 
 ---
 # Where to put your implementation?
