@@ -179,9 +179,9 @@ T addOne(T x) // function template definition
 ```
 
 ???
-`main.cpp` will compile - it can see the forward declartion and trusts the implementaitons will be compiled.
+`main.cpp` will compile - it can see the forward declaration and trusts the implementatitons will be compiled.
 
-`add.cpp` will compile, but not it will not instatiate anything as it does
+`add.cpp` will compile, but not it will not instantiate anything as it does
 not see any uses of the `addOne` function. Therefore you will get a linker error.
 
 We fix this by putting all the template code in a header file. Each `.cpp` file
