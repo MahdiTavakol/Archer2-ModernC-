@@ -49,7 +49,7 @@ namespace morton {
     // Create a new matrix with contents copied from this one
     matrix duplicate() const {
       matrix ans(_rank);
-      std::copy(data(), data() + size(), ans.data.get());
+      std::copy(data(), data() + size(), ans.data().get());
       return ans;
     }
 
