@@ -1,6 +1,7 @@
 // Catch2 is a unit testing library
 // Here we let it create a main() function for us
 #define CATCH_CONFIG_MAIN
+#define CATCH_CONFIG_NO_POSIX_SIGNALS
 #include "catch.hpp"
 
 #include "vector_ex.hpp"
